@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #234B73;
+    color: #FFFFFF;
+    
+}
+
+ nav{
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    position: absolute;
+    top: 0;
+
+}
+
+nav li{
+    display: inline;    
+    padding: 0 5%;
+    margin: 50px;
+    
+}
+
+.h1{
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    position: absolute;
+    top: 50px;
+    
+}
+
+.students-list {
+    position: relative;
+    top: 50px;
+    margin: 50px;
+    padding: 5px;
+}
+
+.students-list li{
+    font-size: 0.8em;
+    border: 1px solid #ccc;
+    background: black;
+}
+
+.table {
+    border: 1px solid #ccc;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 100%;
+    font-size: 50%;
+}
+
+.table th,td{
+    padding:2px;
+    border: 0.5px solid #ccc;
+    text-align: center;
+    background: black;
+    font-family: arial;
+}
