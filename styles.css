@@ -44,7 +44,7 @@ nav li{
 .students-list li{
     font-size: 0.8em;
     border: 1px solid #ccc;
-    background: #232b33;
+    background: #042A52;
     font-family: arial;
 }
 
@@ -61,7 +61,7 @@ nav li{
     padding:2px;
     border: 0.5px solid #ccc;
     text-align: center;
-    background: #232b33;
+    background: #042A52;
     font-family: arial;
     font-size: 10px;
 }
