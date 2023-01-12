@@ -6,13 +6,17 @@
     
 }
 
+nav, nav ul, nav ul li, nav ul li a{
+    background: #052240;
+}
+
  nav{
     text-align: center;
     padding-bottom: 2px;
     padding-top: 2px;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
-    position: absolute;
+    position: relative;
     top: 0;
 
 }
@@ -24,40 +28,42 @@ nav li{
     
 }
 
-.h1{
+.balikkana h1{
     text-align: center;
     width: 100%;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
-    position: absolute;
-    top: 50px;
-
+    position: relative;
+    top: 0px;
+    font-family    
+    background-color: #052240;
+    background: #052240;
 }
 
-.students-list {
+.missu {
     position: relative;
-    top: 50px;
-    margin: 50px;
+    top: 0px;
+    margin: 25px;
     padding: 5px;
 }
 
-.students-list li{
+.missu li{
     font-size: 0.8em;
     border: 1px solid #ccc;
     background: #042A52;
     font-family: arial;
 }
 
-.table {
+.bienerist {
     border: 1px solid #ccc;
     position: relative;
-    top: 100px;
+    top: 0px;
     margin: auto;
     width: 100%;
     font-size: 50%;
 }
 
-.table th,td{
+.bienerist th,td{
     padding:2px;
     border: 0.5px solid #ccc;
     text-align: center;
@@ -65,3 +71,30 @@ nav li{
     font-family: arial;
     font-size: 10px;
 }
+
+footer {
+    margin: 20px 0 0 0;
+    background: #143250;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+ }
+ 
+ footer p {
+    background: #143250;
+    padding: 10px 0 0 5px;
+ }
+ 
+ a{
+     outline: none;
+ }
+ 
+ footer a, footer  img{
+     text-decoration: none;
+     outline: none;
+     width: 40px;
+     height: 40px;
+     border-radius: 40px;
+     margin: 0 20px 0 0;
+ }
