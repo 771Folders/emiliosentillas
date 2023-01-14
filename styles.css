@@ -1,9 +1,13 @@
- * {
+* {
     margin: 0;
     padding: 0;
-    background-color: #234B73;
+    background: #143250;
     color: #FFFFFF;
     
+}
+
+body, h1, ol{
+    background-color: #234B73;
 }
 
 nav, nav ul, nav ul li, nav ul li a{
@@ -35,12 +39,13 @@ nav li{
     border-bottom: 2px solid #ccc;
     position: relative;
     top: 0px;
-    font-family    
+    font-family: ;
     background-color: #052240;
     background: #052240;
 }
 
 .missu {
+    background-color: #234B73;    
     position: relative;
     top: 0px;
     margin: 25px;
@@ -79,22 +84,21 @@ footer {
     height: 100px;
     position: relative;
     bottom: 0;
- }
- 
- footer p {
-    background: #143250;
-    padding: 10px 0 0 5px;
+    padding: 20px 0 0 0;
  }
  
  a{
+     text-decoration: none;
      outline: none;
  }
  
- footer a, footer  img{
+ footer a, footer  img, .socials, .pabida{
      text-decoration: none;
      outline: none;
      width: 40px;
      height: 40px;
      border-radius: 40px;
-     margin: 0 20px 0 0;
+     margin: 0 10px 10px 10px;
+     display: flex;
+     position: relative;
  }
