@@ -15,13 +15,6 @@ saveButton.addEventListener('click', () => {
   const blob = new Blob([data], { type: 'text/html' });
   const url = URL.createObjectURL(blob);
 
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
 
   // Save the note to Local Storage
   savedNotes.push(data);
@@ -66,7 +59,12 @@ function editNoteInList(li, note) {
 }
 
 function deleteNoteFromList(li, note) {
-  li.remove();
+  const confirmation = confirm(`Are you sure you want to delete the note: "${note}"?`);
+  if (confirmation) {
+    li.remove();
+  }
+
+
 
   const index = savedNotes.indexOf(note);
   savedNotes.splice(index, 1);
